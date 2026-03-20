@@ -101,5 +101,9 @@
     "skipLibCheck": true /* Skip type checking all .d.ts files. */
   },
   "include": ["src/**/*"],
-  "exclude": ["src/tests/**/*", "node_modules"]
+  "exclude": [
+  "node_modules",
+  "src/middleware/instrumentation.ts",
+  "src/util/manageSession.ts"
+]
 }
